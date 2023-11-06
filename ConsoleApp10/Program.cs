@@ -1,0 +1,10 @@
+﻿Console.WriteLine("Введите 3 числа");
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+int c = Convert.ToInt32(Console.ReadLine());
+a = a * 2;
+b = b - 3;
+c = c * c;
+int sum = 0;
+sum = a + b + c;
+Console.WriteLine(sum);
